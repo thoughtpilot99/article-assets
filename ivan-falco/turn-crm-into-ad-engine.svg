@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 600" width="1500" height="600">
+  <defs>
+    <radialGradient id="glow" cx="88%" cy="12%" r="55%">
+      <stop offset="0%" stop-color="#ff5a1f" stop-opacity="0.42"/>
+      <stop offset="45%" stop-color="#ff5a1f" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#ff5a1f" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="45" height="45" patternUnits="userSpaceOnUse">
+      <path d="M 45 0 L 0 0 0 45" fill="none" stroke="#1e2530" stroke-width="1" opacity="0.55"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1500" height="600" fill="#0d1117"/>
+  <rect width="1500" height="600" fill="url(#grid)"/>
+  <rect width="1500" height="600" fill="url(#glow)"/>
+
+  <!-- Kicker -->
+  <text x="750" y="120" text-anchor="middle"
+        font-family="'SF Mono', 'Menlo', 'Consolas', monospace"
+        font-size="19" fill="#ff5a1f" letter-spacing="4" font-weight="500">
+    FRONTAL &#183; ADS ENGINEERING
+  </text>
+
+  <!-- Headline line 1 -->
+  <text x="750" y="325" text-anchor="middle"
+        font-family="'General Sans', 'Inter', 'Helvetica Neue', -apple-system, system-ui, sans-serif"
+        font-size="96" font-weight="700" fill="#f4ecdb" letter-spacing="-2">
+    Turn Your CRM Into an
+  </text>
+
+  <!-- Headline line 2 (accent) -->
+  <text x="750" y="440" text-anchor="middle"
+        font-family="'General Sans', 'Inter', 'Helvetica Neue', -apple-system, system-ui, sans-serif"
+        font-size="96" font-weight="700" fill="#ff5a1f" letter-spacing="-2">
+    Ad Engine
+  </text>
+</svg>
